@@ -27,6 +27,8 @@
 
 #import "AppDelegate.h"
 #import "CCBuilderReader.h"
+#import "Penguin.h"
+#import "Seal.h"
 
 @implementation AppController
 
