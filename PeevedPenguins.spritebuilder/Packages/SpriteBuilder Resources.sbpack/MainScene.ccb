@@ -64,7 +64,7 @@
 						<key>type</key>
 						<string>StringSimple</string>
 						<key>value</key>
-						<string></string>
+						<string>Bg</string>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -172,7 +172,7 @@
 						<key>type</key>
 						<string>StringSimple</string>
 						<key>value</key>
-						<string></string>
+						<string>Pla</string>
 					</dict>
 					<dict>
 						<key>name</key>
