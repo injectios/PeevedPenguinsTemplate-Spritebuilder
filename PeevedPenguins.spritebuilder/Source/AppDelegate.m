@@ -57,7 +57,7 @@
 
     [self setupCocos2dWithOptions:cocos2dSetup];
 
-//    [CCBReader load:@"Penguin"];
+    Penguin* penguin = (Penguin*)[CCBReader load:@"Penguin"];
     
     return YES;
 }
