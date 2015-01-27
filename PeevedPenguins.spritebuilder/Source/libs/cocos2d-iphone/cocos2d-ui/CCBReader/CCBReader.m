@@ -337,6 +337,9 @@ static inline float readFloat(CCBReader *self)
 - (NSString*) readCachedString
 {
     int n = readIntWithSign(self, NO);
+    if (n == 32) {
+        return [stringCache objectAtIndex:7];
+    }
     return [stringCache objectAtIndex:n];
 }
 
