@@ -921,7 +921,9 @@ static inline float readFloat(CCBReader *self)
     }
     else
     {
-        NSAssert(false, @"[PROPERTY] %@ - Failed to read property type %d, node class name: \"%@\", name: \"%@\", in ccb file: \"%@\"", name, type, [node class], [node name], _currentCCBFile);
+//        Injectios: comment out assertion due to crash:
+//        http://forum.spritebuilder.com/t/resourcemanager-crash-since-updating/2245/2
+//        NSAssert(false, @"[PROPERTY] %@ - Failed to read property type %d, node class name: \"%@\", name: \"%@\", in ccb file: \"%@\"", name, type, [node class], [node name], _currentCCBFile);
     }
 }
 
